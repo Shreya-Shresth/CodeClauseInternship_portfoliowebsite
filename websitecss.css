@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.portfoliocontainer{
+    height: 100%;
+    width:100%;
+    background-color: #1a0544;
+}
+.navlist{
+    display: flex;
+    gap:3.5rem;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    background-color: blueviolet;
+}
+.navlist li{
+    list-style: none;
+    margin-top: 30px;
+}
+.navlist li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #1a0544;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex: 1; 
+}
+.left-part {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: 100%;
+    color: aliceblue;
+    width: 70%;
+    background-color: #1a0544;
+}
+
+.left-part h4 {
+    margin-left: 10px;
+}
+.left-part h1{
+    margin-bottom: 20px;
+}
+
+.left-part p {
+    text-align: justify;
+    line-height: 30px;
+    max-width: 700px; 
+    margin-left: 2px; 
+    margin-bottom: 250px;
+}
+.right-part {
+    width: 30%;
+    background-color: #164e87;
+    padding: 20px;
+}
+.about-button {
+    padding: 8px; 
+    margin-bottom: 10px; 
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icon-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.portfolio-image {
+    width:50%; 
+    max-height:180px; 
+    object-fit: contain; 
+    margin: auto;
+}
+
+.right-part {
+    margin-top: 20px; 
+    text-align: center;
+}
+.right-part h2{
+    font-size: smaller;
+    margin-top: 10px;
+}
+.social-icons {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.social-icons a {
+    margin: 10px 0; 
+    text-decoration: none;
+    color: #333; 
+}
+
+.social-icons i {
+    font-size: 40px; 
+}
